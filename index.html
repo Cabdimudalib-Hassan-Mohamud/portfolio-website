@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Portfolio Website</title>
 </head>
 <body>
-    <div class="bg-gray-800 w-full h-screen">
+    <div class="bg-gray-800 w-full sm:h-screen h-[1500px]">
     <!-- header -->
-    <div class="flex justify-between px-10 py-4">
+    <div class="flex justify-between sm:px-10 sm:py-4 px-3 py-3">
         <!-- logo -->
         <div class="flex space-x-0 text-3xl">
             <i class="fa-solid fa-chevron-left text-[10px] pt-[11px] pr-[2px] text-green-600"></i>
@@ -20,23 +20,24 @@
         </div>
         <!-- menu & search bar -->
          <div class="relative">
-            <ul class="flex space-x-5 font-semibold text-white">
+            <ul class="sm:flex hidden space-x-5 font-semibold text-white">
             <a href=""><li class="hover:text-green-500">Home</li></a>
             <a href=""><li class="hover:text-green-500">Blog</li></a>
             <li><input class="relative rounded-[17px] w-[140px] outline-green-600" type="text"></li>
             <li><i class="fa-solid fa-magnifying-glass absolute text-black top-1 left-[39%]"></i></li>
             <a href=""><li class="hover:text-green-500"><i class="fa-brands fa-instagram pr-[8px] text-green-500"></i>Instagram</li></a>
             <a href=""><li class="hover:text-green-500"><i class="fa-brands fa-discord pr-[10px] text-green-500"></i>Discord</li></a>
-            <a href="https://github.com/Cabdimudalib-Hassan-Mohamud" target="_blank"><li class="hover:text-green-500"><i class="fa-brands fa-github pr-[10px] text-green-500"></i>Github</li></a>
+            <a href="https://github.com/Cabdimudalib-Hassan-Mohamud" target="_blank"><li class="h"><i class="fa-brands fa-github pr-[10px] text-green-500"></i>Github</li></a>
         </ul>
          </div>
+         <i class="fa-solid fa-bars sm:hidden text-3xl text-emerald-400 flex"></i>
     </div>
     <!-- Sec one -->
     <h1 class="text-center mt-[5px] text-7xl bg-gradient-to-b from-emerald-100 to-emerald-500 bg-clip-text text-transparent hover:bg-gradient-to-t  hover:cursor-pointer">Developer</h1>
-    <div class="mt-[7px] flex justify-around">
+    <div class="sm:mt-[7px] sm:flex justify-around">
         <!-- left side -->
         <div class="translate-x-0">
-             <div class="border-[3px] border-white w-[400px] h-[450px] rounded-tl-[100px] rounded-br-[100px] shadow-lg shadow-emerald-400">
+             <div class="border-[3px] border-white sm:w-[400px] sm:h-[450px] w-[375px] h-[455px] ml-[10px] sm:ml-0 sm:mt-0 mt-[50px] rounded-tl-[100px] rounded-br-[100px] shadow-lg shadow-emerald-400">
                 <img class="border-[4px] border-emerald-500 w-[100px] h-[100px] rounded-full ml-[150px] mt-[10px] mb-[7px]" src="Sawirkeyga.jpg" width="200px">
                 <h1 class="text-center text-white font-bold">Mudalib</h1>
                 <p class="text-center text-white pb-[15px]">Fullstack Developer</p>
@@ -58,13 +59,13 @@
                     <p class="text-white"><a href="https://github.com/Cabdimudalib-Hassan-Mohamud">www.github.com</a></p>
                 </div>
                 <!-- btns -->
-                 <div class="flex space-x-5 ml-[10px] mt-[17px]">
+                 <div class="flex sm:space-x-5 space-x-3 ml-[5px] sm:ml-[10px] mt-[17px]">
                     <button class="px-[8px] py-[4px] bg-emerald-400 font-semibold rounded-[10px] hover:bg-white hover:scale-[0.9]">Hire-me</button>
                     <button class="px-[13px] py-[3px] bg-emerald-400 font-semibold rounded-[10px] hover:bg-white hover:scale-[0.9]">Visit</button>
                     <button class="px-[8px] py-[4px] bg-emerald-400 font-semibold rounded-[10px] hover:bg-white hover:scale-[0.9]">Great-me</button>
                     <button class="px-[8px] py-[4px] bg-emerald-400 font-semibold rounded-[10px] hover:bg-white hover:scale-[0.9]">Contact-me</button>
                  </div>
-                 <button class="px-[17px] py-[7px] bg-white rounded-[18px] font-semibold ml-[105px] mt-[20px] hover:bg-emerald-400 hover:scale-[0.9]">Download CV <i class="fa-solid fa-download pl-[5px]"></i></button>
+                 <button class="px-[17px] py-[7px] bg-white rounded-[18px] font-semibold sm:ml-[105px] ml-[100px] mt-[20px] hover:bg-emerald-400 hover:scale-[0.9]">Download CV <i class="fa-solid fa-download pl-[5px]"></i></button>
              </div>
         </div>
         <!-- middle -->
@@ -202,10 +203,10 @@
                 <p class="text-white">Terms Of Condition</p>
             </div>
                 <!-- icons -->
-                <div>
-            <a href=""><i class="fa-brands fa-instagram text-xl bg-emerald-300 w-[30px] h-[30px] pl-[6px] pt-[2px] rounded-full"></i></a>
-            <a href=""><i class="fa-brands fa-discord text-xl bg-emerald-300 w-[30px] h-[30px] pl-[2px] pt-[2px] rounded-full"></i></a>
-            <a href="https://github.com/Cabdimudalib-Hassan-Mohamud" target="_blank"><i class="fa-brands fa-github text-xl bg-emerald-300 w-[30px] h-[30px] pl-[6px] pt-[2px] rounded-full"></i></a>
+                <div class="flex space-x-3">
+            <a href=""><i class="fa-brands fa-instagram text-xl bg-emerald-300 w-[30px] h-[30px] pl-[6px] pt-[2px] rounded-full hover:scale-[1.2]"></i></a>
+            <a href=""><i class="fa-brands fa-discord text-xl bg-emerald-300 w-[30px] h-[30px] pl-[2px] pt-[2px] rounded-full hover:scale-[1.2]"></i></a>
+            <a href="https://github.com/Cabdimudalib-Hassan-Mohamud" target="_blank"><i class="fa-brands fa-github text-xl bg-emerald-300 w-[30px] h-[30px] pl-[6px] pt-[2px] rounded-full hover:scale-[1.2]"></i></a>
                 </div>
                 <p class="text-white">Design By: <span class="text-emerald-400 font-semibold">Softsprint</span></p>
             </footer>
